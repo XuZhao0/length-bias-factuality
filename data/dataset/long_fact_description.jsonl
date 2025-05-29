@@ -1,0 +1,140 @@
+{"index": 0, "topic": "Robert Koch Institute", "cat": "virology"}
+{"index": 1, "topic": "Hendra virus", "cat": "virology"}
+{"index": 2, "topic": "2002\u20132004 SARS outbreak", "cat": "virology"}
+{"index": 3, "topic": "1998\u20131999 Malaysia Nipah virus outbreak", "cat": "virology"}
+{"index": 4, "topic": "2009 swine flu pandemic", "cat": "virology"}
+{"index": 5, "topic": "Merck & Co.", "cat": "virology"}
+{"index": 6, "topic": "Watts riots", "cat": "20th-century-events"}
+{"index": 7, "topic": "Assassination of Martin Luther King Jr.", "cat": "20th-century-events"}
+{"index": 8, "topic": "Assassination of Mahatma Gandhi", "cat": "20th-century-events"}
+{"index": 9, "topic": "Soweto uprising", "cat": "20th-century-events"}
+{"index": 10, "topic": "Battle of Dunkirk", "cat": "20th-century-events"}
+{"index": 11, "topic": "Hindenburg disaster", "cat": "20th-century-events"}
+{"index": 12, "topic": "Exxon Valdez oil spill", "cat": "20th-century-events"}
+{"index": 13, "topic": "Iran hostage crisis", "cat": "US-foreign-policy"}
+{"index": 14, "topic": "Bay of Pigs Invasion", "cat": "US-foreign-policy"}
+{"index": 15, "topic": "Camp David Accords", "cat": "US-foreign-policy"}
+{"index": 16, "topic": "Ernst & Young", "cat": "accounting"}
+{"index": 17, "topic": "Certified General Accountants Association of Canada", "cat": "accounting"}
+{"index": 18, "topic": "Institute of Management Accountants", "cat": "accounting"}
+{"index": 19, "topic": "Journal of Accounting and Economics", "cat": "accounting"}
+{"index": 20, "topic": "TurboTax", "cat": "accounting"}
+{"index": 21, "topic": "London School of Business and Finance", "cat": "accounting"}
+{"index": 22, "topic": "Fallingwater", "cat": "architecture"}
+{"index": 23, "topic": "Space Needle", "cat": "architecture"}
+{"index": 24, "topic": "Pantheon, Rome", "cat": "architecture"}
+{"index": 25, "topic": "Palace of Versailles", "cat": "architecture"}
+{"index": 26, "topic": "Sagittarius A*", "cat": "astronomy"}
+{"index": 27, "topic": "Crab Nebula", "cat": "astronomy"}
+{"index": 28, "topic": "Spitzer Space Telescope", "cat": "astronomy"}
+{"index": 29, "topic": "Chandra X-ray Observatory", "cat": "astronomy"}
+{"index": 30, "topic": "PSR B1919+21", "cat": "astronomy"}
+{"index": 31, "topic": "Orion Nebula", "cat": "astronomy"}
+{"index": 32, "topic": "Peripatus", "cat": "biology"}
+{"index": 33, "topic": "Eastern long-necked turtle", "cat": "biology"}
+{"index": 34, "topic": "Pacific white-sided dolphin", "cat": "biology"}
+{"index": 35, "topic": "European mantis", "cat": "biology"}
+{"index": 36, "topic": "Quokka", "cat": "biology"}
+{"index": 37, "topic": "Karolinska Institute", "cat": "clinical-knowledge"}
+{"index": 38, "topic": "Ronald Reagan UCLA Medical Center", "cat": "clinical-knowledge"}
+{"index": 39, "topic": "Memorial Sloan Kettering Cancer Center", "cat": "clinical-knowledge"}
+{"index": 40, "topic": "Brigham and Women's Hospital", "cat": "clinical-knowledge"}
+{"index": 41, "topic": "Cleveland Clinic", "cat": "clinical-knowledge"}
+{"index": 42, "topic": "Titan (supercomputer)", "cat": "computer-science"}
+{"index": 43, "topic": "Intel 8086", "cat": "computer-science"}
+{"index": 44, "topic": "Year 2000 problem", "cat": "computer-science"}
+{"index": 45, "topic": "Amazon Web Services", "cat": "computer-science"}
+{"index": 46, "topic": "IBM Watson", "cat": "computer-science"}
+{"index": 47, "topic": "Arduino Uno", "cat": "computer-science"}
+{"index": 48, "topic": "LastPass", "cat": "computer-security"}
+{"index": 49, "topic": "Black Hat Briefings", "cat": "computer-security"}
+{"index": 50, "topic": "Wireshark", "cat": "computer-security"}
+{"index": 51, "topic": "Payment Card Industry Data Security Standard", "cat": "computer-security"}
+{"index": 52, "topic": "Norton AntiVirus", "cat": "computer-security"}
+{"index": 53, "topic": "CrowdStrike", "cat": "computer-security"}
+{"index": 54, "topic": "International Monetary Fund", "cat": "economics"}
+{"index": 55, "topic": "Federal Reserve Bank of New York", "cat": "economics"}
+{"index": 56, "topic": "European Investment Bank", "cat": "economics"}
+{"index": 57, "topic": "Chicago Board of Trade", "cat": "economics"}
+{"index": 58, "topic": "Trans-Pacific Partnership", "cat": "economics"}
+{"index": 59, "topic": "Inter-American Development Bank", "cat": "economics"}
+{"index": 60, "topic": "Blizzard Entertainment", "cat": "gaming"}
+{"index": 61, "topic": "Dark Souls III", "cat": "gaming"}
+{"index": 62, "topic": "Resident Evil Village", "cat": "gaming"}
+{"index": 63, "topic": "BlizzCon", "cat": "gaming"}
+{"index": 64, "topic": "Undertale", "cat": "gaming"}
+{"index": 65, "topic": "Cloud9", "cat": "gaming"}
+{"index": 66, "topic": "Naughty Dog", "cat": "gaming"}
+{"index": 67, "topic": "Antarctic Peninsula", "cat": "geography"}
+{"index": 68, "topic": "Greenland ice sheet", "cat": "geography"}
+{"index": 69, "topic": "Victoria Falls", "cat": "geography"}
+{"index": 70, "topic": "Bora Bora Island", "cat": "geography"}
+{"index": 71, "topic": "Ural Mountains", "cat": "geography"}
+{"index": 72, "topic": "Great Chicago Fire", "cat": "history"}
+{"index": 73, "topic": "Boston Tea Party", "cat": "history"}
+{"index": 74, "topic": "Lewis and Clark Expedition", "cat": "history"}
+{"index": 75, "topic": "Tomb of Tutankhamun", "cat": "history"}
+{"index": 76, "topic": "Great Fire of Rome", "cat": "history"}
+{"index": 77, "topic": "Geneva Conventions", "cat": "international-law"}
+{"index": 78, "topic": "Charter of the United Nations", "cat": "international-law"}
+{"index": 79, "topic": "Vienna Convention on Diplomatic Relations", "cat": "international-law"}
+{"index": 80, "topic": "World Trade Organization", "cat": "international-law"}
+{"index": 81, "topic": "Peace of Westphalia", "cat": "international-law"}
+{"index": 82, "topic": "International Tribunal for the Law of the Sea", "cat": "international-law"}
+{"index": 83, "topic": "Rome Statute", "cat": "international-law"}
+{"index": 84, "topic": "Citizens United v. FEC", "cat": "jurisprudence"}
+{"index": 85, "topic": "Loving v. Virginia", "cat": "jurisprudence"}
+{"index": 86, "topic": "BERT (language model)", "cat": "machine-learning"}
+{"index": 87, "topic": "PyTorch", "cat": "machine-learning"}
+{"index": 88, "topic": "Keras", "cat": "machine-learning"}
+{"index": 89, "topic": "TensorFlow", "cat": "machine-learning"}
+{"index": 90, "topic": "Microsoft Azure", "cat": "machine-learning"}
+{"index": 91, "topic": "GPT-3", "cat": "machine-learning"}
+{"index": 92, "topic": "Pepsi Refresh Project", "cat": "management"}
+{"index": 93, "topic": "The Best Men Can Be", "cat": "management"}
+{"index": 94, "topic": "Dove Campaign for Real Beauty", "cat": "management"}
+{"index": 95, "topic": "Think different", "cat": "management"}
+{"index": 96, "topic": "Open Happiness", "cat": "management"}
+{"index": 97, "topic": "Smarter Planet", "cat": "management"}
+{"index": 98, "topic": "Abel Prize", "cat": "mathematics"}
+{"index": 99, "topic": "Clay Mathematics Institute", "cat": "mathematics"}
+{"index": 100, "topic": "Fields Medal", "cat": "mathematics"}
+{"index": 101, "topic": "Royal Victoria Hospital, Belfast", "cat": "medicine"}
+{"index": 102, "topic": "Memorial Sloan Kettering Cancer Center", "cat": "medicine"}
+{"index": 103, "topic": "Pasteur Institute", "cat": "medicine"}
+{"index": 104, "topic": "King Faisal Specialist Hospital and Research Centre", "cat": "medicine"}
+{"index": 105, "topic": "Johns Hopkins Hospital", "cat": "medicine"}
+{"index": 106, "topic": "Call Me by Your Name (film)", "cat": "movies"}
+{"index": 107, "topic": "Parasite (2019 film)", "cat": "movies"}
+{"index": 108, "topic": "The Big Short (film)", "cat": "movies"}
+{"index": 109, "topic": "Argo (2012 film)", "cat": "movies"}
+{"index": 110, "topic": "The Darkest Hour (film)", "cat": "movies"}
+{"index": 111, "topic": "The Big Sick", "cat": "movies"}
+{"index": 112, "topic": "The Disaster Artist (film)", "cat": "movies"}
+{"index": 113, "topic": "Abbey Road Studios", "cat": "music"}
+{"index": 114, "topic": "Red Rocks Amphitheatre", "cat": "music"}
+{"index": 115, "topic": "The Dark Side of the Moon", "cat": "music"}
+{"index": 116, "topic": "Blue Note Records", "cat": "music"}
+{"index": 117, "topic": "Theremin", "cat": "music"}
+{"index": 118, "topic": "Boston Symphony Orchestra", "cat": "music"}
+{"index": 119, "topic": "Motown", "cat": "music"}
+{"index": 120, "topic": "TRIUMF", "cat": "physics"}
+{"index": 121, "topic": "LIGO Scientific Collaboration", "cat": "physics"}
+{"index": 122, "topic": "Cerro Tololo Inter-American Observatory", "cat": "physics"}
+{"index": 123, "topic": "Tevatron", "cat": "physics"}
+{"index": 124, "topic": "Sardinia Radio Telescope", "cat": "physics"}
+{"index": 125, "topic": "Large Underground Xenon experiment", "cat": "physics"}
+{"index": 126, "topic": "Chauvet Cave", "cat": "pre_history"}
+{"index": 127, "topic": "Cave of Niaux", "cat": "pre_history"}
+{"index": 128, "topic": "Venus of Willendorf", "cat": "pre_history"}
+{"index": 129, "topic": "Gravettian", "cat": "pre_history"}
+{"index": 130, "topic": "Australopithecine", "cat": "pre_history"}
+{"index": 131, "topic": "Tomb of the Eagles", "cat": "pre_history"}
+{"index": 132, "topic": "Augusta National Golf Club", "cat": "sports"}
+{"index": 133, "topic": "Wembley", "cat": "sports"}
+{"index": 134, "topic": "Heisman Trophy", "cat": "sports"}
+{"index": 135, "topic": "Stanley Cup", "cat": "sports"}
+{"index": 136, "topic": "Ryder Cup", "cat": "sports"}
+{"index": 137, "topic": "Great Synagogue (Sydney)", "cat": "world-religions"}
+{"index": 138, "topic": "Bah\u00e1\u02bc\u00ed House of Worship", "cat": "world-religions"}
+{"index": 139, "topic": "Lotus Temple", "cat": "world-religions"}
