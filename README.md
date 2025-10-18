@@ -78,3 +78,29 @@ python scripts/facts_exhaustion.py --setting "multiple" --topic1 "early life" --
 
 ## 📪 Contact
 For questions or suggestions, please feel free to contact xu.zhao@u.nus.edu
+
+## Citation
+If you find our work useful, please cite:
+
+```bibtex
+@inproceedings{zhao-etal-2025-response,
+    title = "How Does Response Length Affect Long-Form Factuality",
+    author = "Zhao, James Xu  and
+      Liu, Jimmy Z.j.  and
+      Hooi, Bryan  and
+      Ng, See-Kiong",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.161/",
+    doi = "10.18653/v1/2025.findings-acl.161",
+    pages = "3102--3125",
+    ISBN = "979-8-89176-256-5"
+}
+```
