@@ -153,6 +153,7 @@ python scripts/length_bias.py --input_path ../data/dataset/biography_generation.
 ```bash
 python scripts/autocorrelation_response_gen.py --api_key YOUR_API_KEY
 ```
+You can refer to autocorrelation analysis in `autocorrelation_analysis.ipynb`. You can change the dataset paths in the `DATASETS` variable to run the analysis on different datasets.
 
 2. **Counterfactual Analysis**
   
