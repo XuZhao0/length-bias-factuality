@@ -1,5 +1,5 @@
 # How Does Response Length Affect Long-Form Factuality?
-This repository contains the code and data for our ACL 2025 Findings paper "How Does Response Length Affect Long-Form Factuality".
+This repository contains the code and data for our ACL 2025 Findings paper ["How Does Response Length Affect Long-Form Factuality".](https://aclanthology.org/2025.findings-acl.161.pdf)
 
 <p align="left">
   <img src="./figures/factual_degradation.png" alt="factual degradation" width=60%>
@@ -13,22 +13,128 @@ This repository contains the code and data for our ACL 2025 Findings paper "How 
 │   │   ├── biography_generation.jsonl
 │   │   ├── long_fact_description.jsonl
 │   ├── human_annotations 
+├── FActScore # repo for FActScore
 ├── scripts # code for empirical analysis
 │   ├── error_propagation 
 │   ├── length_bias.py
 │   ├── long_context.py
 │   ├── facts_exhaustion.py
+├── verify_unsupported_w_google.py
+├── get_final_decisions.py
+├── query_serper.py
+├── prompt.py
+├── search_config.py
+├── tool.py
+├── requirements.txt
 ├── README.md
 ```
-🚧 We are still working on the code and data. Please check back soon for updates. The implementation of **BAFE** will be released shortly.
-
 
 ## 🚀 Getting Started
 
+**For BAFE:**
+
+We suggest to follow the setup instruction in `FActScore/`.
+Python 3.9 is recommended for FActScore compatibility.
+
+```bash
+pip install -r requirements.txt
+```
+```bash
+export OPENAI_API_KEY="your-openai-api-key"
+export SERPER_API_KEY="your-serper-api-key"
+```
+
+`SERPER_API_KEY` and `OPENAI_API_KEY` are needed for BAFE verification. 
+
+**For empirical experiments:**
 ```bash
 pip install openai
 ```
 You need to prepare an OpenAI API key to run the code.
+
+## ✅ BAFE verification pipeline
+
+1. Generate model responses.
+2. Run FActScore to obtain atomic fact decisions.
+3. Verify FActScore-unsupported facts with Google/Serper.
+4. Merge FActScore and Google labels into final decisions.
+
+The verifier expects a model-output JSONL file:
+
+```json
+{"index": 0, "input": "Tell me a bio of ...", "output": "...", "topic": "...", "cat": ["..."]}
+```
+
+It also expects the corresponding FActScore sidecar:
+
+```text
+<input_stem>_factscore_output.json
+```
+
+For `output/gpt-4o/context_len/run.jsonl`, the default sidecar is
+`output/gpt-4o/context_len/run_factscore_output.json`. Use `--factscore_path`
+to pass another file.
+
+### Verify Unsupported Facts
+
+```bash
+python verify_unsupported_w_google.py \
+  --input_path output/gpt-4o/context_len/run.jsonl \
+  --output_root output/gpt-4o/context_len \
+  --workers 20 \
+  --overwrite
+```
+
+This runs `find`, `revise`, `query`, `search`, and `rate`. To resume from a
+specific stage:
+
+```bash
+python verify_unsupported_w_google.py \
+  --input_path output/gpt-4o/context_len/run.jsonl \
+  --output_root output/gpt-4o/context_len \
+  --start_stage query \
+  --stop_stage rate \
+  --workers 20 \
+  --overwrite
+```
+
+Outputs are written under `<output_root>/vanilla_unsupported/`,
+`<output_root>/revise_self_contained/`, and
+`<output_root>/google_verification/`. Defaults are configured in
+`search_config.py`.
+
+### Merge Final Decisions
+
+After Google verification, merge the original FActScore labels with the Google
+verification labels:
+
+```bash
+python get_final_decisions.py \
+  --input_path output/gpt-4o/context_len/run.jsonl \
+  --google_verified_results output/gpt-4o/context_len/google_verification/run_final_answers1.jsonl \
+  --output_path output/gpt-4o/context_len/run_final_decisions.jsonl \
+  --overwrite
+```
+
+If you already have the revised intermediate file, pass it directly:
+
+```bash
+python get_final_decisions.py \
+  --factscore_path output/gpt-4o/context_len/revise_self_contained/run_revised.jsonl \
+  --google_verified_results output/gpt-4o/context_len/google_verification/run_final_answers1.jsonl \
+  --output_path output/gpt-4o/context_len/run_final_decisions.jsonl \
+  --overwrite
+```
+
+Use `--overwrite` for clean reruns, and reduce `--workers` if you hit API rate
+limits.
+
+For detailed options:
+
+```bash
+python verify_unsupported_w_google.py --help
+python get_final_decisions.py --help
+```
 
 ## 📈 Empirical Experiments
 
@@ -47,7 +153,6 @@ python scripts/length_bias.py --input_path ../data/dataset/biography_generation.
 ```bash
 python scripts/autocorrelation_response_gen.py --api_key YOUR_API_KEY
 ```
-We will provide a step-by-step guide for autocorrelation analysis soon.
 
 2. **Counterfactual Analysis**
   
